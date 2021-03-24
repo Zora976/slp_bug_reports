@@ -7,3 +7,5 @@ Feature: Stock availability display
     When  Navigate to the Partner menu > My Products
     And   Scroll down to the product named "Dermapen"
     Then  The value of Stock availability does not decrease (remains the same) after selling the service "Dermapen"
+    But   Stock availability should show decreased value after selling indicated service "Dermapen"
+
