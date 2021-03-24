@@ -8,3 +8,4 @@ Feature: Price currency display
     And   Click on the Service named "Dermapen"
     And   Scroll down to the title "Prices(RSD)"
     Then  Prices are not expressed in the specified currency (RSD) in box "Basic".
+    But   All prices should be expressed in the specified currency (RSD).
